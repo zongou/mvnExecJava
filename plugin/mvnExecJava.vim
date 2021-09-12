@@ -1,6 +1,8 @@
 " https://github.com/mikelue/vim-maven-plugin
 " https://github.com/vim-scripts/maven-ide
 
+" variable show existense of this script
+let g:has_mvn_exec_java = 1
 function! MvnExecJava()
     exec "w"
 	let currentBuffer = bufnr("%")

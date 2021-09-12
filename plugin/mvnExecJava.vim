@@ -2,7 +2,7 @@
 " https://github.com/vim-scripts/maven-ide
 
 " variable show existense of this script
-let g:existMvnExecJavaPlugin = 1
+let g:existsMvnExecJavaPlugin = 1
 function! MvnExecJava()
     exec "w"
 	let currentBuffer = bufnr("%")
